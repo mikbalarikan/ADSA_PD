@@ -3,7 +3,7 @@ ADSA_PD is an optical surface tension measurement tool for Pendant Droplet (PD).
 
 ## Axisymmetric Pendant Drop Shape Analysis (ADSA) for Surface Tension Measurement
 
-This notebook demonstrates the measurement of surface tension from geometric parameters of a pendant drop by analyzing its captured image and fitting the Young-Laplace equation to the experimentally obtained droplet profile.
+ADSA_PD notebook demonstrates the measurement of surface tension from geometric parameters of a pendant drop by analyzing its captured image and fitting the Young-Laplace equation to the experimentally obtained droplet profile.
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/p6qdgdTs/PD-figure.png" alt="PD-figure" border="0" /></a>
 
