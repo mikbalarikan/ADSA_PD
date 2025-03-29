@@ -93,3 +93,5 @@ pip install numpy matplotlib pandas scipy scikit-image opencv-python jupyter
 
 Example images are provided in the `example_images` folder to assist you in verifying the notebook functionality.
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/spKJ4R4g/sample-drop-image.png" alt="sample-drop-image" border="0"></a>
+
