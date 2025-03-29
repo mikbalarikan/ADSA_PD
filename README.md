@@ -44,3 +44,52 @@ Where:
 - $Bo$ is the Bond number, which characterizes the ratio of gravitational to surface tension forces.
 
 By solving these equations and fitting the resulting theoretical profile to the experimental image, the surface tension can be accurately determined.
+
+
+### Installation & User Guide for ADSA Analysis
+
+This ADSA (Axisymmetric Drop Shape Analysis) code is provided as a Jupyter notebook (`ADSA_PD.ipynb`) and can be executed on any system (Windows, macOS, Linux) with Jupyter installed.
+
+### Execution Guide
+
+1. **Install Dependencies:**
+   - Ensure Python is installed (recommended Python 3.7 or newer).
+   - Install necessary packages:
+   ```bash
+   pip install numpy matplotlib pandas scipy jupyter scikit-image opencv-python
+   ```
+
+2. **Running the Notebook:**
+   - Open a terminal or command prompt in the directory containing `ADSA_PD.ipynb`.
+   - Launch Jupyter Notebook by typing:
+   ```bash
+   jupyter notebook
+   ```
+   - Select and open `ADSA_PD.ipynb` from your web browser.
+
+3. **Prepare your Drop Images:**
+   - Crop images closely around the droplet.
+   - Ensure drop edges are sharp and clear to avoid pixel-based measurement errors.
+
+4. **Execute the Analysis:**
+   - Follow the notebook cells sequentially and execute each step.
+
+### Required Libraries
+
+The notebook requires the following Python libraries:
+- NumPy
+- Matplotlib
+- Pandas
+- SciPy
+- scikit-image
+- OpenCV (cv2)
+
+Install them all at once with:
+```bash
+pip install numpy matplotlib pandas scipy scikit-image opencv-python jupyter
+```
+
+### Example Images
+
+Example images are provided in the `example_images` folder to assist you in verifying the notebook functionality.
+
